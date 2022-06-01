@@ -51,17 +51,17 @@ export const mintPanic = {
 export const welcomeSettings: WelcomeSettings = {
 
   //Title and Description
-  title: "Welcome!",
-  desc: "Connect your wallet and load in! Whitelist mint starts soon!",
+  title: "Shirizu Mecha",
+  desc: "Connect your wallet and load in!",
 
   // Countdown Timer
   countdownEnable: false,
-  countdownTo: date("2 Jan 2022 00:00:00 GMT"),
+  countdownTo: date("1 June 2022 09:00:00 GMT"),
   //Example date below
   // date('29 2021 00:00:00 GMT')
 
   // showprice
-  showPrice: false,
+  showPrice: true,
 
   //Enable Custom HTML
   enableCustomHTML: false,
@@ -145,8 +145,8 @@ export const publicSaleSettings: PublicSaleSettings = {
   // date('29 2021 00:00:00 GMT')
 
   //Title and Description
-  title: "Public Sale",
-  desc: "Sale is now live. Mint your NFT below",
+  title: "LIVE MINT",
+  desc: "Sales is now live!",
 
   //Enable Custom HTML
   enableCustomHTML: false,
@@ -159,7 +159,7 @@ export class MintPublicSaleCustomHTML extends React.Component {
         {/* Add Custom HTML code for Public Minting Here! */}
 
         
-        <p>Test 3</p>
+        <p>LIVE MINT</p>
         
         
         {/* End */}
